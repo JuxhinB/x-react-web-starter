@@ -1,0 +1,16 @@
+/**
+ * Main file of style which includes most of the important things of the style.
+ * Not all file are necessary to be included here but for other upcoming and included
+ * files this one is a dependency.
+ */
+.media_world_register {
+  @import "./0_base/_main_base";
+  @import "./1_component/_main_component";
+  @import "./2_container/_main_container";
+}
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
