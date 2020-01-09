@@ -1,13 +1,11 @@
-import React from 'react';
-import RootContainer from './container/RootContainer'
+import React from "react";
+import RootContainer from "./container/RootContainer";
 
-interface AppProps {
-
-}
+interface AppProps {}
 
 function App() {
   return (
-    <div className="media_world_register">
+    <div className="">
       <RootContainer />
     </div>
   );

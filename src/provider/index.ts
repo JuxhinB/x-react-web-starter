@@ -1,5 +1,3 @@
-import UserProvider from './UserProvider'
+import UserProvider from "./UserProvider";
 
-export {
-  UserProvider
-}
+export { UserProvider };

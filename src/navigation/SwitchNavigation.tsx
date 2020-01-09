@@ -1,17 +1,15 @@
-import React from 'react'
-import { GuestNavigation } from '.';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import { GuestNavigation } from ".";
+import { BrowserRouter } from "react-router-dom";
 
-interface SwitchNavigationProps {
-
-}
+interface SwitchNavigationProps {}
 
 function SwitchNavigation() {
   return (
     <BrowserRouter>
-      <GuestNavigation/>
+      <GuestNavigation />
     </BrowserRouter>
-  )
+  );
 }
 
-export default SwitchNavigation
+export default SwitchNavigation;

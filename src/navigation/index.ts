@@ -1,7 +1,4 @@
-import SwitchNavigation from './SwitchNavigation'
-import GuestNavigation from './GuestNavigation'
+import SwitchNavigation from "./SwitchNavigation";
+import GuestNavigation from "./GuestNavigation";
 
-export {
-  SwitchNavigation,
-  GuestNavigation
-}
+export { SwitchNavigation, GuestNavigation };

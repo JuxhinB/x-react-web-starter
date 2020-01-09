@@ -1,5 +1,3 @@
-import GeneralLayout from './GeneralLayout'
+import GeneralLayout from "./GeneralLayout";
 
-export {
-  GeneralLayout
-}
+export { GeneralLayout };

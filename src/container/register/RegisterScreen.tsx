@@ -1,18 +1,14 @@
-import React from 'react'
-import { GeneralLayout } from '../../layouts'
+import React from "react";
+import { GeneralLayout } from "../../layouts";
 
-interface RegisterScreenProps {
-
-}
+interface RegisterScreenProps {}
 
 function RegisterScreen() {
   return (
     <GeneralLayout>
-      <div>
-        
-      </div>
+      <div></div>
     </GeneralLayout>
-  )
+  );
 }
 
-export default RegisterScreen
+export default RegisterScreen;

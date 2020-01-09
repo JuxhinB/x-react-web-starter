@@ -1,18 +1,15 @@
-import React from 'react'
-import { SwitchNavigation } from '../navigation'
-import { UserProvider } from '../provider'
+import React from "react";
+import { SwitchNavigation } from "../navigation";
+import { UserProvider } from "../provider";
 
-
-interface RootContainerProps {
-
-}
+interface RootContainerProps {}
 
 function RootContainer() {
   return (
     <UserProvider>
       <SwitchNavigation />
     </UserProvider>
-  )
+  );
 }
 
-export default RootContainer
+export default RootContainer;

@@ -1,17 +1,15 @@
-import React from 'react'
+import React from "react";
 
 interface GeneralLayoutProps {
-  children: JSX.Element
+  children: JSX.Element;
 }
 
-const GeneralLayout = ({ children }:GeneralLayoutProps) => {
+const GeneralLayout = ({ children }: GeneralLayoutProps) => {
   return (
-    <div className={'outer-container'}>
-      <div className={'inner-container'}>
-        {children}
-      </div>
+    <div className={"outer-container"}>
+      <div className={"inner-container"}>{children}</div>
     </div>
-  )
-}
+  );
+};
 
-export default GeneralLayout
+export default GeneralLayout;

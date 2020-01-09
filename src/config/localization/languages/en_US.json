@@ -1,14 +1,8 @@
 {
-  "LABEL":{
-
-  },
-  "ACTION":{
-
-  },
-  "MESSAGE":{
-
-  },
-  "ERROR":{
-    "error":"Error"
+  "LABEL": {},
+  "ACTION": {},
+  "MESSAGE": {},
+  "ERROR": {
+    "error": "Error"
   }
 }

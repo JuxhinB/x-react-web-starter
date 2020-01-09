@@ -50,7 +50,7 @@ const ResponseStatus = {
       default:
         return strLng.ERROR;
     }
-  }
+  },
 };
 
 export default ResponseStatus;

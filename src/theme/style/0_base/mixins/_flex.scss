@@ -4,8 +4,7 @@
 // other flex properties are conditionals
 //
 
-@mixin flex($f-dir:unset, $justify:unset, $align:unset, $wrap:unset ){
-
+@mixin flex($f-dir: unset, $justify: unset, $align: unset, $wrap: unset) {
   // default return
   display: flex;
 

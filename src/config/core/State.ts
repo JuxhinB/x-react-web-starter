@@ -1,5 +1,4 @@
 class MainInfo {
-
   public storage: any = null;
 
   constructor() {
