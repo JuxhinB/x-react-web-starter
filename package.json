@@ -1,5 +1,6 @@
 {
-  "name": "boilerplate",
+  "author": "Juxhin Bleta",
+  "name": "jbrcp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
