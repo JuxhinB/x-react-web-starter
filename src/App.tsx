@@ -1,5 +1,6 @@
 import React from "react";
 import RootContainer from "./container/RootContainer";
+import { hot } from 'react-hot-loader/root'
 
 interface AppProps {}
 
@@ -11,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default process.env.NODE_ENV === "development" ? hot(App) : App
