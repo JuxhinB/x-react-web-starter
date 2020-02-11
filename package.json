@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "autoprefixer": "^9.7.3",
     "axios": "^0.19.1",
     "emotion": "^10.0.27",
     "formik": "^2.1.1",
@@ -20,9 +19,10 @@
     "yup": "^0.28.0"
   },
   "scripts": {
+    "build:style": "postcss src/theme/style/style-raw.scss -o src/theme/style/style.scss",
     "start-scss-map": "react-app-rewired start node-sass --source-map true --include-path ./src --include-path ./node_modules ./src/scss -o",
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "start": "npm run build:style && react-app-rewired start",
+    "build": "npm run build:style && react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
     "storybook": "start-storybook",
@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "@fullhuman/postcss-purgecss": "^2.0.6",
     "@storybook/react": "^5.2.8",
     "@types/enzyme": "^3.10.4",
     "@types/enzyme-adapter-react-16": "^1.0.5",
@@ -62,10 +63,12 @@
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/parser": "^2.15.0",
     "@welldone-software/why-did-you-render": "^4.0.3",
+    "autoprefixer": "^9.7.4",
     "babel-jest": "^24.9.0",
     "better-docs": "^1.4.7",
     "customize-cra": "^0.9.1",
     "jsdoc": "^3.6.3",
+    "postcss-cli": "^7.1.0",
     "prettier": "1.19.1",
     "react-app-rewired": "^2.1.5",
     "typescript": "^3.7.5"

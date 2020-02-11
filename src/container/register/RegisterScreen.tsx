@@ -6,7 +6,7 @@ interface RegisterScreenProps {}
 function RegisterScreen() {
   return (
     <GeneralLayout>
-      <div className={''}></div>
+      <div className={'p-16 bg-red-600'}></div>
     </GeneralLayout>
   );
 }
