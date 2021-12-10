@@ -1,3 +1,5 @@
-import UserProvider from "./UserProvider";
+import AppProvider from "./AppProvider";
 
-export { UserProvider };
+export default {
+  AppProvider,
+};

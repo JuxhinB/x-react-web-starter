@@ -1,15 +1,13 @@
 import React from "react";
-import RootContainer from "./container/RootContainer";
-import { hot } from 'react-hot-loader/root'
-
-interface AppProps {}
+import navigation from "./navigation";
+import provider from "./provider";
 
 function App() {
   return (
-    <div className="">
-      <RootContainer />
-    </div>
+    <provider.AppProvider>
+      <navigation.SwitchNavigation />
+    </provider.AppProvider>
   );
 }
 
-export default process.env.NODE_ENV === "development" ? hot(App) : App
+export default App;

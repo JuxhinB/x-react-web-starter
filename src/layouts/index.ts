@@ -1,3 +1,5 @@
 import GeneralLayout from "./GeneralLayout";
 
-export { GeneralLayout };
+export default {
+  GeneralLayout,
+};

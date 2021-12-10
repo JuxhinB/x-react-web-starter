@@ -1,14 +1,9 @@
 import React from "react";
-import { GuestNavigation } from ".";
-import { BrowserRouter } from "react-router-dom";
-
-interface SwitchNavigationProps {}
+import navigation from ".";
 
 function SwitchNavigation() {
   return (
-    <BrowserRouter>
-      <GuestNavigation />
-    </BrowserRouter>
+    <navigation.GuestNavigation />
   );
 }
 

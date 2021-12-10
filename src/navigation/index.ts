@@ -1,4 +1,7 @@
 import SwitchNavigation from "./SwitchNavigation";
 import GuestNavigation from "./GuestNavigation";
 
-export { SwitchNavigation, GuestNavigation };
+export default {
+  SwitchNavigation,
+  GuestNavigation,
+};
