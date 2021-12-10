@@ -16,7 +16,7 @@
     "jsdoc": "npx jsdoc -c jsdocConfig.json"
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.2",
     "emotion": "^10.0.27",
     "formik": "^2.1.1",
     "node-sass": "^4.12.0",
